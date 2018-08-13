@@ -1,0 +1,36 @@
+{
+  "name": "code-judge-login",
+  "version": "1.0.0",
+  "description": "login-page for the website",
+  "main": "app.js",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "connect-flash": "^0.1.1",
+    "connect-mongo": "^2.0.1",
+    "cookie-parser": "^1.4.3",
+    "dotenv": "^6.0.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "express-session": "^1.15.6",
+    "mongoose": "^5.2.3",
+    "morgan": "^1.9.0",
+    "passport": "^0.4.0",
+    "passport-google": "^0.3.0",
+    "passport-google-oauth": "^1.0.0",
+    "passport-local": "^1.0.0",
+    "passport-strategy": "^1.0.0",
+    "passport-twitter": "^1.0.4",
+    "pug-bootstrap": "0.0.15"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IOSD/code-judge/tree/master/Team_12"
+  },
+  "author": "raman",
+  "license": "ISC"
+}
