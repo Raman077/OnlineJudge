@@ -53,6 +53,12 @@ UserSchema.pre('save', function (next) {
       return next(err);
     }
     user.password = hash;
+    bcrypt.hash(user.passwordConf, 10, function (err, hash) {
+    if (err) {
+      return next(err);
+    }
+    user.passwordConf = hash;
+    
     next();
   })
 });
